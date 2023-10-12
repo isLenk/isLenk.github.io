@@ -1,8 +1,7 @@
-import { useState } from "react";
-import { Button, Tooltip, Typography } from "@material-tailwind/react";
+import { Button, Typography } from "@material-tailwind/react";
 import MyProjects from "./components/MyProjects";
 import Header from "./components/Header";
-import Timeline from "./components/Timeline";
+// import Timeline from "./components/Timeline";
 
 function App() {
 	return (
@@ -49,12 +48,12 @@ function App() {
 				<MyProjects />
 
 				{/* OKEY */}
-				<Typography variant="h1" className="uppercase">
+				{/* <Typography variant="h1" className="uppercase">
 					TIMELINE + PROJECTS
 				</Typography>
 				<Typography variant="lead">Heres a weird timeline</Typography>
 				<br></br>
-				<Timeline />
+				<Timeline /> */}
 			</div>
 			<footer className="bg-black p-4 mt-4 h-24 text-white">
 				<Typography variant="lead">Yron Lance Talban</Typography>

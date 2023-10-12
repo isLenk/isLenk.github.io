@@ -1,5 +1,4 @@
 import { Typography } from "@material-tailwind/react";
-import React from "react";
 import { ProjectData } from "../interfaces/app_interfaces";
 
 interface ProjectCardProps {
@@ -13,9 +12,11 @@ const ProjectCard = ({ value }: ProjectCardProps) => {
 		<div
 			className="w-96 rounded-lg h-80 relative bg-black text-black
             hover:scale-125 hover:z-10 transition-all border-2 border-gray-800"
+			key={name + description}
+			onClick={() => console.log(url)}
 		>
 			<img
-				src="https://placehold.co/600x400"
+				src={false ? image : "https://placehold.co/600x400"}
 				className="absolute rounded-lg h-full w-full object-cover opacity-50"
 			></img>
 			<div className="absolute p-8 text-white">

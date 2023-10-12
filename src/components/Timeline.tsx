@@ -1,5 +1,3 @@
-import { Typography } from "@material-tailwind/react";
-import React from "react";
 import Milestone from "./Timeline/Milestone";
 
 const Timeline = () => {

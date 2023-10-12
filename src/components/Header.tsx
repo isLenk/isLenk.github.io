@@ -1,5 +1,4 @@
 import { Typography, Tooltip } from "@material-tailwind/react";
-import React from "react";
 import Navbar from "./Navbar";
 
 const Header = () => {

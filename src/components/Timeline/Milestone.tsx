@@ -1,5 +1,4 @@
 import { Typography } from "@material-tailwind/react";
-import React from "react";
 
 interface MilestonePoints {
 	title: string;
@@ -12,7 +11,7 @@ interface MilestoneProps {
 	points: Array<MilestonePoints>;
 }
 
-const Milestone = ({ title, description, points }: MilestoneProps) => {
+const Milestone = ({ title, description }: MilestoneProps) => {
 	return (
 		<div className="min-h-[30vh]">
 			<div className="w-full inline-flex gap-4 relative">
@@ -36,7 +35,7 @@ const Milestone = ({ title, description, points }: MilestoneProps) => {
 			<hr className="h-full absolute border-gray-600 border-4 rounded-lg ml-16 " />
 
 			<div className="ml-40">
-				<Typography>WE PUT SUFF HERE</Typography>
+				<Typography>WE PUT STUFF HERE</Typography>
 			</div>
 		</div>
 	);

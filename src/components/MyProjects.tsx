@@ -1,4 +1,3 @@
-import React from "react";
 import ProjectCard from "./ProjectCard";
 import { ProjectData } from "../interfaces/app_interfaces";
 
